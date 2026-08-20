@@ -1,0 +1,1096 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+
+}
+
+
+.tituloPricipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 40px black;
+    background-color: white;
+
+
+
+
+}
+
+.imgDaLogo {
+    height: 80px;
+}
+
+
+
+.tituloPricipal a {
+    text-decoration: none;
+
+
+}
+
+.tituloPricipal a:hover {
+    color: forestgreen;
+    text-decoration: underline forestgreen
+}
+
+/* .lista{
+    position: fixed;
+    top: 0;
+    right:  0;
+    z-index: 999;
+    height:35vh ;
+    width: 200px;
+    background-color: rgb(233, 230, 230, 0.9);
+    display:none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: -10px 0px 30px black;
+    
+
+}
+#botao {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#menu.ativo {
+  display: block;
+   position: fixed;
+    top: 0;
+    right:  0;
+    z-index: 999;
+    height:35vh ;
+    width: 200px;
+    background-color: rgb(233, 230, 230, 0.9);
+    box-shadow: -10px 0px 30px black;
+}
+
+#menu.ativo {
+  display: block;
+   position: fixed;
+    top: 0;
+    right:  0;
+    z-index: 999;
+    height:35vh ;
+    width: 200px;
+    background-color: rgb(233, 230, 230, 0.9);
+    box-shadow: -10px 0px 30px black
+    }
+     */
+.computador {
+    display: none;
+}
+
+#menu {
+    display: none;
+    padding: 10px;
+    position: fixed;
+    top: 11%;
+    right: 0;
+
+    z-index: 999;
+    height: 27vh;
+    width: 150px;
+    background-color: rgb(233, 230, 230, 0.9);
+    border: 1px solid black;
+    border-radius: 0px;
+
+
+}
+
+#menu a {
+    padding-top: 20px;
+}
+
+/* Quando estiver ativo */
+#menu.ativo {
+    display: block;
+}
+
+.lista li {
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.lista a {
+    height: 100%;
+}
+
+.lista a:hover {
+    color: forestgreen;
+}
+
+.lista ul {
+    list-style: none;
+}
+
+.menu div {
+    width: 18px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+
+
+}
+
+/* aqui é  corpo */
+.data {
+    background: url(image/img\ da\ logo\ do\ site.jpeg);
+
+    height: 700px;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.data h1 {
+    color: rgb(30, 30, 143);
+    font-size: 3rem;
+    max-width: 600px;
+    text-shadow: 1px 1px 100px white;
+    padding-bottom: 20px;
+
+}
+
+.data span {
+    color: forestgreen;
+
+}
+
+.data p {
+    color: black;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    max-width: 500px;
+}
+
+.data main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.data main p {
+
+    font-size: 1rem;
+    max-width: 200px;
+    padding-left: 10px;
+
+}
+
+.data a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(47, 165, 53);
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 60px 10px 10px;
+    border: solid rgb(47, 165, 53);
+    border-radius: 10px;
+}
+
+.data a:hover {
+    border: solid rgb(47, 165, 53);
+    color: white;
+    background-color: rgb(37, 205, 40);
+    transition: 0.3s linear;
+}
+
+.data2 {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px white;
+
+}
+
+.corpo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.corpo2 h1 {
+    font-size: 3rem;
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: rgb(47, 165, 53);
+    text-shadow: 1px 1px 2px black;
+}
+
+.corpo2 p {
+
+    max-width: 500px;
+    padding: 40px;
+    font-size: 1.20rem;
+    /* text-shadow: 1px 1px 2px black; */
+
+}
+
+.corpo3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.corpo3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 305px;
+    border: solid yellowgreen;
+    border-radius: 10px;
+
+}
+
+.corpo3 h2 {
+    font-size: 2rem;
+    max-width: 70%;
+    text-align: center;
+    padding-bottom: 9px;
+    color: rgb(30, 30, 143);
+
+}
+
+.corpo3 span {
+    color: rgb(47, 165, 53);
+}
+
+.corpo3 img {
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.quemSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+
+}
+
+.quemSomos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.quemSomos h1 {
+    font-size: 3rem;
+    color: rgb(47, 165, 53);
+}
+
+.quemSomos span {
+    color: rgb(30, 30, 143);
+}
+
+.quemSomos p {
+    max-width: 300px;
+    padding: 30px 0;
+    font-size: 1.20rem;
+}
+
+.quemSomos a {
+    border: solid rgb(47, 165, 53);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(47, 165, 53);
+    padding: 15px
+}
+
+.quemSomos a:hover {
+    border: solid rgb(47, 165, 53);
+    color: white;
+    background-color: rgb(37, 205, 40);
+    transition: 0.3s linear;
+}
+
+
+
+.quemSomos img {
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.Clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Clientes h2 {
+    font-size: 3rem;
+    padding: 30px;
+    color: rgb(30, 30, 143);
+
+}
+
+.Clientes span {
+    color: forestgreen;
+}
+
+.Clientes p {
+    font-size: 1.20rem;
+    padding-bottom: 20px;
+    max-width: 500px;
+
+}
+
+.Clientes div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.Clientes img {
+    width: auto;
+    height: 120px;
+
+}
+
+
+.online {
+    background: url(image/orizonte1.jpeg);
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.online div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.online h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: white;
+
+
+}
+
+.online p {
+    font-size: 1.20rem;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.online a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(47, 165, 53);
+    padding: 15px;
+    margin: 15px;
+    border: solid rgb(47, 165, 53);
+
+}
+
+.online a:hover {
+    border: solid rgb(47, 165, 53);
+    color: white;
+    background-color: rgb(37, 205, 40);
+    transition: 0.4s linear;
+}
+
+.Localização {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Localização h2 {
+    font-size: 3rem;
+    padding: 20px;
+    color: rgb(47, 165, 53)
+}
+
+.Localização iframe {
+    width: 100%;
+}
+
+.rodape {
+    background-color: aliceblue;
+
+
+
+}
+
+.rodape div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.rodape h3 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.rodape a {
+    text-decoration: none;
+    padding-bottom: 7px;
+    color: rgb(76, 73, 73);
+}
+
+.linha img {
+    margin-top: 6px;
+}
+
+.escrita p {
+    max-width: 300px;
+}
+
+
+/* serviços do JF */
+
+.caixa ul {
+    display: flex;
+}
+
+.caixa ul li {
+    display: flex;
+    padding-left: 20px;
+
+}
+
+.serviçoscoteine {
+    background: url(image/imgDoServiço3.jpeg);
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    object-fit: cover;
+    background-position: center;
+
+
+
+}
+
+.serviçoscoteine section {
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    border-radius: 20px;
+    padding: 45px;
+    box-shadow: 20px 5px 30px white;
+    height: auto;
+}
+
+
+.serviçoscoteine h1 {
+    font-size: 3rem;
+    color: rgb(30, 30, 143);
+    padding-bottom: 15px;
+    font-size: 3.2rem;
+
+
+
+}
+
+.serviçoscoteine h1 span {
+    color: rgb(47, 165, 53);
+}
+
+.serviçoscoteine p {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    max-width: 340px;
+}
+
+.serviçoscoteine p span {
+    background-color: rgb(47, 165, 53);
+    color: white;
+    padding: 3px;
+
+}
+
+.serviçoscoteine div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(47, 165, 53);
+    width: 45%;
+    padding: 5px;
+    border: solid rgb(47, 165, 53);
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.serviçoscoteine div:hover {
+    background-color: rgb(37, 205, 40);
+}
+
+.serviçoscoteine div a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+.areaDeAtuação {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+
+
+}
+
+.areaDeAtuação h2 {
+    color: rgb(30, 30, 143);
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.areaDeAtuação span {
+    color: rgb(47, 165, 53);
+}
+
+.areaDeAtuação p {
+    text-align: center;
+    color: rgb(73, 72, 72);
+    font-size: 1.2rem;
+
+}
+
+
+.serviçosLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    min-height: 350px;
+
+
+}
+
+.serviçosLink ul li {
+    list-style: none;
+    padding: 15px;
+
+
+}
+
+.serviçosLink a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.serviçosLink a:hover {
+    color: rgb(47, 165, 53)
+}
+
+.TopografiaConvencional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(216, 229, 240);
+    margin-bottom: 10px;
+
+
+
+}
+
+.TopografiaConvencional h2 {
+    font-size: 2rem;
+    padding: 80px 0 10px;
+    color: rgb(30, 30, 143);
+}
+
+.TopografiaConvencional h2 span {
+    color: rgb(47, 165, 53);
+}
+
+.TopografiaConvencional p {
+    max-width: 600px;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.TopografiaConvencional li {
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+
+
+}
+
+.A {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(47, 165, 53);
+    padding: 15px;
+    margin: 2px;
+    border: solid rgb(47, 165, 53);
+
+}
+
+.A:hover {
+    border: solid rgb(47, 165, 53);
+    color: white;
+    background-color: rgb(37, 205, 40);
+    transition: 0.3s linear;
+
+}
+
+.serviçosimg {
+    width: 330px;
+    margin: 30px;
+    height: 550px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.TopografiaConvencional2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+.TopografiaConvencional2 h2 {
+    color: rgb(30, 30, 143);
+    font-size: 2rem;
+    padding: 80px 0 10px;
+}
+
+.TopografiaConvencional2 span {
+    color: rgb(47, 165, 53);
+}
+
+.TopografiaConvencional2 p {
+    max-width: 600px;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.TopografiaConvencional2 li {
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+    max-width: 500px;
+
+}
+
+.estamosPonto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url(orizonte.jpeg);
+    object-fit: cover;
+    min-height: 150px;
+}
+
+.estamosPonto h2 {
+    font-size: 2.8rem;
+    padding-bottom: 10px;
+}
+
+.estamosPonto p {
+    font-size: 1.10rem;
+}
+
+
+
+/* empresa do JF */
+
+
+.Empresa {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: url(image/fotoDoSevicço.png);
+    height: 640px;
+    width: 100%;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;      
+    background-size: cover;  
+    padding-top: 50px;
+
+
+}
+
+.Empresa section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 15px 20px 30px white;
+}
+
+.Empresa section h1 {
+    color: rgb(30, 30, 143);
+    font-size: 3.54rem;
+    padding-bottom: 10px;
+    padding-top: 17px;
+}
+
+.Empresa section h1 span {
+    color: rgb(47, 165, 53);
+}
+
+.Empresa section p {
+    color: rgb(30, 30, 143);
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+
+.Empresa section p span {
+    color: rgb(47, 165, 53);
+}
+
+.Empresa2 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Empresa2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Empresa2 div span {
+    color: rgb(47, 165, 53);
+    padding: 5px;
+}
+
+
+
+
+.duasDecadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    height: auto;
+
+
+}
+
+.duasDecadas h2 {
+    font-size: 2.2rem;
+    padding-top: 50px;
+    padding-right: 20px;
+    color: rgb(30, 30, 143);
+}
+
+.duasDecadas h2 span {
+    color: rgb(47, 165, 53);
+}
+
+.duasDecadas p {
+    max-width: 600px;
+    font-size: 1.3rem;
+    color: rgb(92, 91, 91);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.msgDoDiretor {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+
+}
+
+.destaqueDoMsgDoDiretor1 {
+    color: rgb(47, 165, 53);
+}
+
+.destaqueDoMsgDoDiretor2 {
+    padding-bottom: 15px;
+}
+
+.destaqueDoMsgDoDiretor3 {
+    background-color: rgb(47, 165, 53);
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.msgDoDiretor div p {
+    max-width: 500px;
+    padding-top: 15px;
+    color: rgb(116, 107, 107);
+}
+
+.msgDoDiretor div h2 {
+    padding-top: 15px;
+}
+
+
+.msgDoDiretor img {
+    width: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid white;
+
+}
+
+.missão {
+    background-color: aliceblue;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.missão div {
+    padding: 30px 0;
+
+}
+
+.missão h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+    color: rgb(47, 165, 53);
+
+}
+
+.missão p {
+    max-width: 700px;
+    font-size: 1.2rem;
+    color: rgb(108, 107, 107);
+}
+
+.cotação {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url(orizonte.jpeg);
+    height: 150px;
+}
+
+.cotação h2 {
+    font-size: 2.3rem;
+    padding-bottom: 10px;
+}
+
+.cotação p {
+    font-size: 1.2rem;
+}
+
+
+/* contato da JF Topografia */
+
+
+.ContatoSolicite {
+    background: url(image/imgDecontato.jpeg);
+    object-fit: cover;
+
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ContatoSolicite h1 {
+    font-size: 3rem;
+    color: rgb(47, 165, 53);
+
+}
+
+
+
+
+.contatoModerna {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px
+}
+
+.contatoModerna h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.contatoModerna div {
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    width: 300px;
+    gap: 10px;
+    background-color: rgb(243, 240, 240);
+
+}
+
+.contatoModerna div:hover {
+    box-shadow: -0px 0px 15px;
+    transition: all 0.7s ease;
+}
+
+
+
+.contatoCentral {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.contatoCentral h2 {
+    font-size: 2.2rem;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(47, 165, 53);
+
+
+}
+
+.contatoCentral iframe {
+    height: 400px;
+    width: 300px;
+}
+
+.contatoCentral div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contatoCentral input {
+    padding: 10px 90px 10px 20px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+
+}
+
+.Mensagem {
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: -5px 5px 20px;
+}
+
+#button {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    #botao {
+        display: none;
+    }
+
+    .computador {
+        display: flex;
+    }
+
+    .computador ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .computador a:hover {
+
+        text-decoration: underline black;
+
+    }
+
+    .principal {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    .missão div {
+        display: flex;
+
+
+    }
+
+    .missão p {
+        padding-left: 150px;
+    }
+
+
+
+}
