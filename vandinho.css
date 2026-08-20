@@ -167,6 +167,7 @@ body {
     max-width: 600px;
     text-shadow: 1px 1px 100px white;
     padding-bottom: 20px;
+    padding-top: 60px;
 
 }
 
@@ -254,6 +255,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 10px;
 }
 
 .corpo3 div {
@@ -265,6 +267,7 @@ body {
     width: 305px;
     border: solid yellowgreen;
     border-radius: 10px;
+    
 
 }
 
@@ -272,18 +275,21 @@ body {
     font-size: 2rem;
     max-width: 70%;
     text-align: center;
-    padding-bottom: 9px;
+    
     color: rgb(30, 30, 143);
 
 }
 
 .corpo3 span {
     color: rgb(47, 165, 53);
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 9px;
 }
 
 .corpo3 img {
     width: 300px;
-    height: 500px;
+    height: 100%;
     border-radius: 0px 0px 10px 10px;
 
 }
@@ -375,11 +381,13 @@ body {
     flex-wrap: wrap;
     gap: 50px;
 }
-
-.Clientes img {
+.imgDosClientes1{
     width: auto;
     height: 120px;
+}
 
+.imgDosClientes2{
+    width: 200px;
 }
 
 
