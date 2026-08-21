@@ -400,6 +400,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 
 }
 
@@ -990,9 +991,12 @@ body {
     padding-top: 50px;
 
 }
+.contatoModerna p{
+    text-align: center;
+}
 
 .contatoModerna div {
-    padding: 30px;
+    
     border: 1px solid;
     border-radius: 20px;
     display: flex;
